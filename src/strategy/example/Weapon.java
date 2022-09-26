@@ -1,2 +1,6 @@
-package strategy.example;public class Weapon {
+package strategy.example;
+
+public interface Weapon {
+
+    public void attack();
 }

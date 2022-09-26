@@ -1,2 +1,9 @@
-package strategy.example;public class Axe {
+package strategy.example;
+
+public class Axe implements Weapon{
+
+    @Override
+    public void attack() {
+        System.out.println("도끼 공격 호출 완료");
+    }
 }
